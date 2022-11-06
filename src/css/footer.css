@@ -13,6 +13,12 @@
     padding-bottom: 2rem;
 }
 
+
+.footer .navbar__link:hover{
+    text-shadow: 0 0 2px white;
+
+}
+
 .contact_me_button{
     font-family: Monocraft;
     padding: 1rem 2rem;

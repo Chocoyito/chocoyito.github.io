@@ -25,7 +25,8 @@ body{
 
 a{
     text-decoration: none;
-    color: #28282B;
+    color: black;
+    /*Negro mate: #28282B*/
 }
 li{
     list-style: none;
@@ -35,7 +36,7 @@ li{
     height: auto;
     background-repeat: no-repeat;
     background-position: center center;
-    border: 1px solid black; /* Debatir si dejarselo o quitarselo */
+
 }
 
 
@@ -49,6 +50,7 @@ li{
     font-size: 4rem;
     color: #28282B;
 }
+
 
 img{
     width: 100%;
@@ -64,8 +66,14 @@ img{
 .navbar__link{
     display: block;
 }
+.navbar__link:hover{
+    text-shadow: 0 0 1px black;
+}
 
 @media (min-width: 768px) {
+    .header{
+        border: 1px solid black; /* Debatir si dejarselo o quitarselo */
+    }
     .logo{
         display: flex;
         gap: 2rem;

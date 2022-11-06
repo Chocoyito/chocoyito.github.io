@@ -8,13 +8,18 @@
     align-items: center;
 }
 
-.my_projects{
-    background-color: black ;
-    color: white;
-    margin-top: 5rem;
+
+.about_me{
+    margin: 5rem 0;
+}
+
+.section__h1{
+    padding-top: 2rem;
+    font-size: 3rem;
 }
 
 .portrait__image{
+    margin: 2rem 0;
     height: auto;
     width: 50%;
     border-radius: 50%;
@@ -25,13 +30,46 @@
     font-size: 3rem;
 }
 
-h2{
-    font-size: 1.8rem;
+.aptitudes{
+    margin: 5rem 0;
 }
+
+.aptitudes h1{
+    margin-bottom: 2rem;
+    padding: 0;
+}
+
+
+.my_aptitudes__img{
+    width: auto;
+    height: auto;
+}
+
+.my_projects{
+    background-color: black ;
+    color: white;
+    margin: 5rem 0;
+}
+
+
+.my_projects__article h2{
+    font-size: 1.8rem;
+    color: deepskyblue;
+}
+
+.my_projects__article{
+    //border-right: 1px solid white;
+}
+
 .my_projects__img{
     width: 55%;
     height: 20rem;
 }
+.my_projects__img:last-of-type{
+    width: 50%;
+    height: auto;
+}
+
 .my_projects__paragraph{
     padding: 0 0.8rem;
 }
@@ -42,23 +80,45 @@ h2{
         display: flex;
         flex-direction: column;
     }
+
+
     .aside{
         width: 100%; /* Ni idea que hice aqui, pero me gusta xD */
         padding: 0 20rem;
         margin-top: 1rem;
     }
 
-    .grid{
+    .aptitudes__grid{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 
+
+    .aptitudes__article{
+        padding: 0 2rem;
+        border-right:1px solid black ;
+    }
+
+    .aptitudes__article:last-of-type{
+        border-right:none ;
+    }
+
+    .my_projects__grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .my_projects__article:last-of-type {
+        grid-column:1/4 ;
+    }
+
+
     .portrait__image{
-        margin-top: 1rem;
         height: auto;
         width: 40%;
         border-radius: 50%;
         border: 1px solid black;
     }
+
 
 }
