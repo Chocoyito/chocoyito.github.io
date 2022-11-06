@@ -1,8 +1,9 @@
 html{
     box-sizing: border-box;
     font-size: 62.5%;
-    font-family: Monocraft;
+    font-family: 'monocraftmedium';
 }
+
 
 *, *::before, *::after{
     box-sizing: inherit;
@@ -70,7 +71,7 @@ img{
     text-shadow: 0 0 1px black;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1280px) {
     .header{
         border: 1px solid black; /* Debatir si dejarselo o quitarselo */
     }

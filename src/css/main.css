@@ -24,6 +24,8 @@
     width: 50%;
     border-radius: 50%;
     border: 1px solid black;
+    filter: drop-shadow(0 0 0.50rem darkgray);
+    /*https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow*/
 }
 
 .about_me h1{
@@ -67,7 +69,7 @@
 
 .my_projects__img{
     width: 55%;
-    height: 20rem;
+    height: auto;
 }
 
 .my_projects__article:last-of-type .my_projects__img{
@@ -80,7 +82,7 @@
 }
 
 .github_button{
-    font-family: Monocraft;
+    font-family: 'monocraftmedium';
     padding: 10px 10px 10px 36px;
     background: transparent url("../assets/pngegg.png") 10px 10px no-repeat; background-size: 20% 45%;
     border-radius: 0.4rem;
@@ -95,7 +97,7 @@
     transform: scale(1.1) perspective(1px)
 }
 
-@media (min-width: 768px){
+@media (min-width: 1280px){
 
     .about_me{
         display: flex;
@@ -122,6 +124,11 @@
 
     .aptitudes__article:last-of-type{
         border-right:none ;
+    }
+
+    .my_projects__img{
+        width: 55%;
+        height: 20rem;
     }
 
     .my_projects__grid{
