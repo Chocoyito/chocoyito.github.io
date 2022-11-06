@@ -1,0 +1,42 @@
+.footer{
+    background-color: black;
+}
+.footer h1{
+    color: whitesmoke;
+}
+.footer a{
+    color: whitesmoke;
+}
+
+.footer .navbar{
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+}
+
+.contact_me_button{
+    font-family: Monocraft;
+    padding: 1rem 2rem;
+    background: none;
+    border-radius: 1rem;
+    color: white;
+    margin: 2rem 0;
+}
+
+@media (min-width: 768px) {
+    .footer{
+        margin-top: 4rem;
+        padding: 3rem 0;
+    }
+    .footer .navbar{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .contact_me_button{
+        font-family: Monocraft;
+        padding: 1rem 2rem;
+        background: none;
+        border-radius: 1rem;
+        color: white;
+        margin: 0;
+    }
+}

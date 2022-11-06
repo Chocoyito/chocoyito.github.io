@@ -1,0 +1,64 @@
+.main__container{
+    margin-top: 5rem;
+}
+.text-align{
+    text-align: center;
+}
+.align-items{
+    align-items: center;
+}
+
+.my_projects{
+    background-color: black ;
+    color: white;
+    margin-top: 5rem;
+}
+
+.portrait__image{
+    height: auto;
+    width: 50%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.about_me h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 1.8rem;
+}
+.my_projects__img{
+    width: 55%;
+    height: 20rem;
+}
+.my_projects__paragraph{
+    padding: 0 0.8rem;
+}
+
+@media (min-width: 768px){
+
+    .about_me{
+        display: flex;
+        flex-direction: column;
+    }
+    .aside{
+        width: 100%; /* Ni idea que hice aqui, pero me gusta xD */
+        padding: 0 20rem;
+        margin-top: 1rem;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .portrait__image{
+        margin-top: 1rem;
+        height: auto;
+        width: 40%;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+
+}
