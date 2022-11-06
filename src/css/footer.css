@@ -23,7 +23,7 @@
     font-family: Monocraft;
     padding: 1rem 2rem;
     background: none;
-    border-radius: 1rem;
+    border-radius: 0.4rem;
     color: white;
     margin: 2rem 0;
 }
@@ -41,7 +41,6 @@
         font-family: Monocraft;
         padding: 1rem 2rem;
         background: none;
-        border-radius: 1rem;
         color: white;
         margin: 0;
     }

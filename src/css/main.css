@@ -49,6 +49,7 @@
     background-color: black ;
     color: white;
     margin: 5rem 0;
+    padding-bottom: 5rem;
 }
 
 
@@ -58,20 +59,40 @@
 }
 
 .my_projects__article{
-    //border-right: 1px solid white;
+    /*border-right: 1px solid white;*/
 }
+
+
+
 
 .my_projects__img{
     width: 55%;
     height: 20rem;
 }
-.my_projects__img:last-of-type{
+
+.my_projects__article:last-of-type .my_projects__img{
     width: 50%;
     height: auto;
 }
 
 .my_projects__paragraph{
     padding: 0 0.8rem;
+}
+
+.github_button{
+    font-family: Monocraft;
+    padding: 10px 10px 10px 36px;
+    background: transparent url("../assets/pngegg.png") 10px 10px no-repeat; background-size: 20% 45%;
+    border-radius: 0.4rem;
+    color: white;
+    outline: none;
+    transition: all .5s ease;
+}
+.github_button:hover{
+    background: url("../assets/pngegg_black.png") 10px 10px no-repeat;; background-size: 20% 45%;
+    color: #001F3F;
+    background-color: white;
+    transform: scale(1.1) perspective(1px)
 }
 
 @media (min-width: 768px){
