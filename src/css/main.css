@@ -22,8 +22,8 @@
     margin: 2rem 0;
     height: auto;
     width: 50%;
+    /* border: 1px solid black; */
     border-radius: 50%;
-    border: 1px solid black;
     filter: drop-shadow(0 0 0.50rem darkgray);
     /*https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow*/
 }
@@ -53,8 +53,33 @@
     margin: 5rem 0;
     padding-bottom: 5rem;
 }
+/*
+.block{
+    display: block;
+    width: auto;
+}
 
+.my_projects__h1{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+            typing 3.5s steps(30, end),
+            blink-caret .5s step-end infinite;
+}
 
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+}
+*/
 .my_projects__article h2{
     font-size: 1.8rem;
     color: deepskyblue;
@@ -89,6 +114,7 @@
     color: white;
     outline: none;
     transition: all .5s ease;
+    cursor: pointer;
 }
 .github_button:hover{
     background: url("../assets/pngegg_black.png") 10px 10px no-repeat;; background-size: 20% 45%;
@@ -119,7 +145,7 @@
 
     .aptitudes__article{
         padding: 0 2rem;
-        border-right:1px solid black;
+        border-right: 2px solid black;
     }
 
     .aptitudes__article:last-of-type{

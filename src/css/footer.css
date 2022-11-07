@@ -20,7 +20,7 @@
 }
 
 .contact_me_button{
-    font-family: Monocraft;
+    font-family: 'monocraftmedium';
     padding: 1rem 2rem;
     background: none;
     border-radius: 0.4rem;
@@ -38,10 +38,6 @@
         padding-bottom: 0;
     }
     .contact_me_button{
-        font-family: Monocraft;
-        padding: 1rem 2rem;
-        background: none;
-        color: white;
         margin: 0;
     }
 }
