@@ -71,7 +71,7 @@ img{
     text-shadow: 0 0 1px black;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1080px) {
     .header{
         border: 1px solid black; /* Debatir si dejarselo o quitarselo */
     }

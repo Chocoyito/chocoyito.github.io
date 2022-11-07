@@ -97,7 +97,7 @@
     transform: scale(1.1) perspective(1px)
 }
 
-@media (min-width: 1280px){
+@media (min-width: 1080px){
 
     .about_me{
         display: flex;
@@ -119,7 +119,7 @@
 
     .aptitudes__article{
         padding: 0 2rem;
-        border-right:1px solid black ;
+        border-right:1px solid black;
     }
 
     .aptitudes__article:last-of-type{
